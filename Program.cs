@@ -8,7 +8,7 @@ namespace ConsoleApp13
         {
             protected int age{ get; set; }
             protected string name { get; set; }
-            protected static bool cute = true;
+            protected readonly static bool cute = true;
     }
     class Fox : Animal
         {
